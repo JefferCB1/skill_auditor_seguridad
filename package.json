@@ -1,18 +1,15 @@
 {
   "name": "skill-auditor-seguridad",
-  "version": "1.0.0",
-  "description": "Skill de Auditoría de Seguridad para integraciones de IA",
+  "version": "1.0.1",
+  "description": "Skill de Auditoria de Seguridad SecOps para asistentes de IA",
   "main": "index.js",
-  "bin": "index.js",
+  "bin": {
+    "skill-auditor-seguridad": "./index.js"
+  },
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [
-    "ai",
-    "skill",
-    "security",
-    "auditor"
-  ],
+  "keywords": ["ai", "skill", "security", "auditor", "secops"],
   "author": "JefferCB1",
   "license": "ISC"
 }
