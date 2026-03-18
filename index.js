@@ -52,12 +52,12 @@ Genera una tabla en Markdown estrictamente con las siguientes columnas:
 
 ### Paso 3: Call to Action
 Finaliza SIEMPRE con esta pregunta exacta:
-*"🔍 Análisis completado. ¿Deseas que aplique las soluciones sugeridas en [Nombre de los archivos afectados] o prefieres revisar alguna en detalle?"*
+*"Análisis completado. ¿Deseas que aplique las soluciones sugeridas en [Nombre de los archivos afectados] o prefieres revisar alguna en detalle?"*
 `;
 
 // Write the file
 fs.writeFileSync(skillFile, skillContent);
 
-console.log('✅ Skill "Auditoría de Seguridad Maestra" instalado exitosamente!');
-console.log(\`📂 Ruta: \${skillFile}\`);
-console.log('\\nPara usarla, simplemente dile a la IA: "@auditar-seguridad" o "Revisa la seguridad del código".');
+console.log('Skill "Auditoría de Seguridad Maestra" instalado exitosamente!');
+console.log(`Ruta: ${skillFile}`);
+console.log('\nPara usarla, simplemente dile a la IA: "@auditar-seguridad" o "Revisa la seguridad del código".');
